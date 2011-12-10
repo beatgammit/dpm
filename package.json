@@ -1,0 +1,19 @@
+{
+	"author": "T. Jameson Little <t.jameson.little@gmail.com>",
+	"name": "dpm",
+	"description": "Package manager written in D",
+	"version": "0.0.1",
+	"main": "./cli.d",
+	"bin": {
+		"dpm": "./cli.d"
+	},
+	"repository": {
+		"url": ""
+	},
+	"engines": {
+		"dmd": "*"
+	},
+	"dependencies": {
+		"dpm.json": "*"
+	}
+}
